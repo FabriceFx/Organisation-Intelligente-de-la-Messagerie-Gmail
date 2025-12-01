@@ -1,4 +1,4 @@
-# 📧 Organisation Intelligente de la Messagerie Gmail
+# 📧 Organisation intelligente de la messagerie Gmail
 
 ![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Apps%20Script-green)
@@ -13,17 +13,17 @@ Ce projet propose une solution automatisée pour structurer la boîte de récept
 
 Le script assure une **gestion d'état exclusive** (un email ne peut pas avoir deux libellés contradictoires) et applique un **code couleur visuel** pour une identification immédiate des priorités.
 
-## ✨ Fonctionnalités Clés
+## ✨ Fonctionnalités clés
 
 * **Classification Contextuelle** : Distinction automatique entre les messages qui vous sont adressés directement et ceux en copie.
-* **Code Couleur Sémantique** :
+* **Code Couleur sémantique** :
     * 🔴 **Rouge** : Message direct non lu (Urgent).
     * ⚪ **Gris** : Message lu (Archivé/Traité).
     * 🔵 **Bleu** : Copie non lue (Information).
 * **Performance V8** : Utilisation stricte des opérations par lots (*Batch Operations*) pour respecter les quotas de l'API Google.
 * **Automatisation** : Système de déclencheur (*Trigger*) intégré pour une exécution en arrière-plan toutes les 10 minutes.
 
-## 🛠 Prérequis Technique (Important)
+## 🛠 Prérequis technique (Important)
 
 Pour que la coloration des libellés fonctionne, vous devez activer le **Service Avancé Gmail**.
 
